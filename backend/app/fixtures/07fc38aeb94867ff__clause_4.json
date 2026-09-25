@@ -1,0 +1,19 @@
+{
+  "clause_type": "compensation and payment",
+  "plain_english": "The client will pay you Rs 75,000 each month. You must send an invoice on the 1st of the month for the previous month’s work, and the client must pay within 15 days of getting a valid invoice. If they pay late, they owe you interest of 1.5% for each month the payment is overdue.",
+  "what_it_means_for_you": "You’ll receive a fixed monthly fee, but you must invoice on time and you’ll earn interest if the client delays payment.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause sets a clear payment schedule and includes a modest interest charge for late payment.",
+    "The 1.5% per month interest is not unusually high under Indian law and is a standard remedy for delayed payments."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "Can the client request a different invoice date or payment schedule?",
+    "Is the 1.5% interest rate negotiable or aligned with your expectations?",
+    "What documentation is considered a \"valid invoice\" under this agreement?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Late payments shall attract an interest of 1.5% per month."
+}

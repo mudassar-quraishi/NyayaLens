@@ -1,0 +1,45 @@
+{
+  "missing_clauses": [
+    {
+      "name": "Payment Timeline and Late‑Payment Interest",
+      "why_it_matters": "The agreement states the monthly retainer amount (Rs. 75,000) but does not specify when invoices must be paid, the due date for each payment, or any interest/penalty for late payment. Without this, the freelancer may face cash‑flow problems if the client delays payment.",
+      "severity": "high"
+    },
+    {
+      "name": "Scope Change / Additional Work Process",
+      "why_it_matters": "The SCOPE OF SERVICES clause describes the services to be provided, yet there is no mechanism for handling changes in scope, additional tasks, or adjustments to fees. This can lead to disputes over extra work and compensation.",
+      "severity": "high"
+    },
+    {
+      "name": "Termination for Convenience by Freelancer",
+      "why_it_matters": "Clause 8 allows the client to terminate with 15 days’ notice, but the agreement provides no right for the freelancer to terminate for convenience or for cause (e.g., non‑payment). This creates an imbalance of power.",
+      "severity": "high"
+    },
+    {
+      "name": "Liability Cap",
+      "why_it_matters": "Clause 6 obliges the freelancer to indemnify the client but does not set a maximum monetary limit on the freelancer’s liability. Unlimited liability can be financially ruinous for a freelancer.",
+      "severity": "high"
+    },
+    {
+      "name": "Intellectual Property Ownership Details",
+      "why_it_matters": "Clause 5 begins with “All deliverables … shall beco…”, but the excerpt is incomplete and does not clearly state whether ownership transfers to the client, remains with the freelancer, or is licensed. Ambiguity can cause future disputes over who may use the work.",
+      "severity": "medium"
+    },
+    {
+      "name": "Return or Destruction of Confidential Information",
+      "why_it_matters": "The CONFIDENTIALITY clause (Clause 5) requires parties to keep information confidential, yet it does not require the freelancer to return or destroy confidential materials at termination, leaving the client’s data potentially exposed.",
+      "severity": "medium"
+    },
+    {
+      "name": "Late‑Payment Penalties / Interest",
+      "why_it_matters": "Related to the missing payment timeline, the agreement does not provide any interest rate or penalty for overdue invoices, reducing the freelancer’s leverage to enforce timely payment.",
+      "severity": "medium"
+    },
+    {
+      "name": "Force Majeure Notice Requirements",
+      "why_it_matters": "Clause 11 excuses performance for events beyond control but does not require the affected party to give notice or provide evidence of the event, which can lead to abuse of the clause.",
+      "severity": "low"
+    }
+  ],
+  "inconsistencies": []
+}

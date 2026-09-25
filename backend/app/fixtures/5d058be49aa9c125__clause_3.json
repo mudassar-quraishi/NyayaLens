@@ -1,0 +1,21 @@
+{
+  "clause_type": "term",
+  "plain_english": "The contract starts on 1 June 2025, lasts for one year, and will keep renewing every six months unless you, the freelancer, send a written notice at least 60 days before the current term ends to stop it.",
+  "what_it_means_for_you": "You’ll stay bound by the agreement for another six months unless you remember to give a 60‑day written notice before the end of each term.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "The contract will keep renewing automatically, which could extend your obligations beyond what you expect.",
+    "You must give written notice at least 60 days before the term ends, so missing the deadline could lock you in for another six months."
+  ],
+  "favors": "party_b",
+  "questions_to_ask": [
+    "What form and address should the written notice of non‑renewal take?",
+    "Can I give notice by email or only by postal mail?",
+    "What happens if I miss the 60‑day notice—does the contract simply renew or are there penalties?",
+    "Will the compensation terms change on each renewal?",
+    "Is there any way to terminate earlier than the renewal date without penalty?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "The Agreement shall automatically renew for successive 6-month periods unless the Freelancer provides written notice of non-renewal at least 60 days before expiry."
+}

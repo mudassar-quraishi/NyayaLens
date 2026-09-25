@@ -1,0 +1,21 @@
+{
+  "clause_type": "termination",
+  "plain_english": "Either you or the client can end the contract by giving a written 30‑day notice. When the contract ends, the client must pay you for any work you’ve already done, and you must give back any client materials within 15 days.",
+  "what_it_means_for_you": "You can walk away with 30 days’ notice, but you must return client materials quickly and will only be paid for work done up to termination.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Both parties have the same notice period, so the clause isn’t one‑sided",
+    "Payment is limited to services actually rendered, which is standard",
+    "The return‑material deadline is reasonable and does not impose harsh penalties"
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What counts as “services rendered” – does it include work in progress?",
+    "If the client delays payment after termination, what recourse do I have?",
+    "Can the 15‑day return period be extended if returning materials is impractical?",
+    "Are there any fees or penalties for terminating early that aren’t mentioned here?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Either party may terminate this Agreement by providing 30 (thirty) days' written notice to the other party."
+}

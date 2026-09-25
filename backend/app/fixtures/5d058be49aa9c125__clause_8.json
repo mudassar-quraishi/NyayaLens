@@ -1,0 +1,23 @@
+{
+  "clause_type": "termination",
+  "plain_english": "The client can end the agreement at any time by giving you 15 days' written notice and does not need a reason. You can only end the agreement if you have a valid reason (cause), must give 60 days' written notice, and the client must fail to fix the problem within 30 days after you notify them. If the client ends the agreement, they will pay you for work done up to that date, but they can deduct any amount they consider deficient. If you end the agreement, you must finish any projects that are already in progress and you will not be paid for the 60‑day notice period unless the client agrees to waive it.",
+  "what_it_means_for_you": "You have limited ability to quit and may lose up to two months of pay if you terminate.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The client can terminate without cause, leaving you without work on short notice.",
+    "You can only quit for cause and must give a much longer 60‑day notice.",
+    "If you terminate, you may not receive any payment for the notice period unless the client waives it.",
+    "The client can deduct payment for any work they deem deficient, which could reduce your earnings."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can the notice period for termination be made the same for both parties?",
+    "What specific events count as “cause” for me to terminate?",
+    "How will the client determine and communicate that work is deficient?",
+    "Is there any compensation for the 60‑day notice period if I terminate?",
+    "Can we add a clause that allows me to terminate without cause under certain conditions?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "The Client may terminate this Agreement at any time by providing 15 (fifteen) days' written notice to the Freelancer, without cause. The Freelancer may terminate this Agreement only for cause, by providing 60 (sixty) days' written notice and only if the Client has failed to cure the breach within 30 days of receiving notice."
+}

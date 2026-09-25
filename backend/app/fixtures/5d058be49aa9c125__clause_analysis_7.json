@@ -1,0 +1,23 @@
+{
+  "clause_type": "liability and indemnification",
+  "plain_english": "You (the freelancer) must pay for any claims, damages, losses, or legal costs that arise from the work you do or any breach of this agreement, with no upper limit, while the client’s liability to you is limited to the fees they paid you in the month before any claim.",
+  "what_it_means_for_you": "You could be on the hook for unlimited damages, but the client can only be liable for a small, recent fee amount.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The indemnity you must provide has no monetary cap, exposing you to unlimited financial exposure.",
+    "The client’s liability is capped at only the fees paid in the month before a claim, which may be far less than any loss you suffer.",
+    "The clause is heavily one‑sided in favor of the client, giving you far fewer protections.",
+    "The language is broad (\"any and all claims, damages, losses, liabilities, costs and expenses\") and could be interpreted to include indirect or consequential losses."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can the indemnity obligation be limited to direct damages only?",
+    "Is it possible to set a reasonable monetary cap on the freelancer’s indemnity?",
+    "Can the client’s liability be increased to match the freelancer’s exposure?",
+    "Does the indemnity apply to third‑party claims only, or also to internal disputes?",
+    "Will the client provide insurance to cover potential indemnity claims?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.92,
+  "evidence_quote": "The Freelancer shall indemnify, defend, and hold harmless the Client... without any limitation on the amount. The Client's liability to the Freelancer shall not exceed the fees paid in the month preceding the claim."
+}

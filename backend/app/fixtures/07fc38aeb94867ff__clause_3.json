@@ -1,0 +1,16 @@
+{
+  "clause_type": "term",
+  "plain_english": "The contract starts on 1 June 2025 and will run for 12 months, but it can end sooner if either side follows the termination rules in the agreement. It can be extended only if both parties sign a written renewal.",
+  "what_it_means_for_you": "You have a fixed 12‑month work period that may end early under the contract’s termination provisions, and any extension requires your written agreement.",
+  "risk_level": "low",
+  "risk_reasons": [],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What are the specific conditions that allow early termination?",
+    "What notice must be given to end the agreement before the 12‑month term?",
+    "What format and timeline are required for the mutual written consent to renew?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "shall continue for a period of 12 (twelve) months, unless terminated earlier in accordance with the terms herein"
+}

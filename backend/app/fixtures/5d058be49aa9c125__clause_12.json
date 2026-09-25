@@ -1,0 +1,22 @@
+{
+  "clause_type": "non-compete",
+  "plain_english": "While you are working under this agreement and for one year after it ends, you cannot offer the same kind of services to any company that the client says is a direct competitor.",
+  "what_it_means_for_you": "You may be barred from working for other clients in the same field for 12 months after the contract ends, unless you can prove the restriction is invalid.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The clause bans you from working for any competitor for 12 months after the contract, which is a strong post‑employment restriction.",
+    "It gives the client sole discretion to decide who counts as a \"direct competitor,\" making the restriction vague and potentially over‑broad.",
+    "Indian law (Section 27 of the Indian Contract Act) generally renders post‑employment non‑compete clauses void, so the clause may be unenforceable and could lead to a legal dispute.",
+    "The clause provides no compensation or consideration for the restriction, increasing the chance a court will view it as a penalty rather than a legitimate protection."
+  ],
+  "favors": "party_b",
+  "questions_to_ask": [
+    "How does the client define a \"direct competitor\" and can that definition be narrowed?",
+    "Is there any compensation offered for the 12‑month restriction?",
+    "Can the restriction be limited to a specific geographic area or type of service?",
+    "Would the client be willing to remove or modify the clause to comply with Indian law?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "During the term of this Agreement and for a period of 12 months thereafter, the Freelancer shall not provide similar services to any direct competitor of the Client, as determined by the Client."
+}

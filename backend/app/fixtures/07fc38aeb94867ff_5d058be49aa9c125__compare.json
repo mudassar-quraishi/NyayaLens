@@ -1,0 +1,201 @@
+{
+  "pairs": [
+    {
+      "clause_a_ordinal": 1,
+      "clause_b_ordinal": 1,
+      "change_type": "modified",
+      "what_changed": "Unilateral amendment clause added: Client may amend on 15 days notice, continued service is acceptance.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "FREELANCE SERVICE AGREEMENT — VERSION 1\n\nThis Freelance Service Agreement (\"Agre",
+      "quote_b": "FREELANCE SERVICE AGREEMENT — VERSION 2 (REVISED)\n\nThis Freelance Service Agreem"
+    },
+    {
+      "clause_a_ordinal": 2,
+      "clause_b_ordinal": 2,
+      "change_type": "modified",
+      "what_changed": "Scope changes now unilateral by client to modify without additional compensation.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "signed by both parties",
+      "quote_b": "modify the scope of services at any time ... without additional compensation"
+    },
+    {
+      "clause_a_ordinal": 3,
+      "clause_b_ordinal": 3,
+      "change_type": "modified",
+      "what_changed": "Auto-renewal added with 60 days advance opt-out notice required only by freelancer.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "renewed by mutual written consent",
+      "quote_b": "automatically renew for successive 6-month periods unless the Freelancer provides written notice of non-renewal at least 60 days"
+    },
+    {
+      "clause_a_ordinal": 4,
+      "clause_b_ordinal": 4,
+      "change_type": "modified",
+      "what_changed": "Payment terms changed from 15 days to 60 days, and payment withholding rights added.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "within 15 (fifteen) days",
+      "quote_b": "within 60 (sixty) days"
+    },
+    {
+      "clause_a_ordinal": 5,
+      "clause_b_ordinal": 5,
+      "change_type": "modified",
+      "what_changed": "IP ownership on creation regardless of payment status, and portfolio use restricted without prior written consent.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "upon full payment. The Freelancer retains the right to use the deliverables in their portfolio",
+      "quote_b": "upon creation, regardless of payment status. The Freelancer shall not use the deliverables in their portfolio without the Client's prior written consent"
+    },
+    {
+      "clause_a_ordinal": 6,
+      "clause_b_ordinal": 6,
+      "change_type": "unchanged",
+      "what_changed": "No substantive change in terms.",
+      "who_benefits": "balanced",
+      "risk_delta": "neutral",
+      "quote_a": "5. CONFIDENTIALITY\nBoth parties shall maintain the confidentiality of proprietar",
+      "quote_b": "5. CONFIDENTIALITY\nBoth parties shall maintain the confidentiality of proprietar"
+    },
+    {
+      "clause_a_ordinal": 7,
+      "clause_b_ordinal": 7,
+      "change_type": "modified",
+      "what_changed": "Uncapped indemnity added for freelancer without any limitation, while client liability is capped at 1 month.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "shall not exceed the total fees paid",
+      "quote_b": "without any limitation on the amount"
+    },
+    {
+      "clause_a_ordinal": 8,
+      "clause_b_ordinal": 8,
+      "change_type": "modified",
+      "what_changed": "Termination made one-sided: client 15 days without cause, freelancer 60 days for cause only.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "Either party may terminate this Agreement by providing 30 (thirty) days' written notice",
+      "quote_b": "15 (fifteen) days' written notice to the Freelancer, without cause"
+    },
+    {
+      "clause_a_ordinal": 9,
+      "clause_b_ordinal": 9,
+      "change_type": "modified",
+      "what_changed": "Mediation step removed from dispute resolution, and sole arbitrator appointed by the Client in Mumbai.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "resolved through mediation",
+      "quote_b": "sole arbitrator appointed by the Client"
+    },
+    {
+      "clause_a_ordinal": 10,
+      "clause_b_ordinal": 10,
+      "change_type": "modified",
+      "what_changed": "Jurisdiction changed from Pune to Mumbai with exclusive jurisdiction.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "courts at Pune, Maharashtra",
+      "quote_b": "courts at Mumbai, Maharashtra"
+    },
+    {
+      "clause_a_ordinal": 11,
+      "clause_b_ordinal": 11,
+      "change_type": "unchanged",
+      "what_changed": "No substantive change in terms.",
+      "who_benefits": "balanced",
+      "risk_delta": "neutral",
+      "quote_a": "10. FORCE MAJEURE\nNeither party shall be liable for failure to perform obligatio",
+      "quote_b": "10. FORCE MAJEURE\nNeither party shall be liable for failure to perform obligatio"
+    },
+    {
+      "clause_a_ordinal": 12,
+      "clause_b_ordinal": 13,
+      "change_type": "modified",
+      "what_changed": "Unilateral amendment clause added: Client may amend on 15 days notice, continued service is acceptance.",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "11. GENERAL PROVISIONS",
+      "quote_b": "12. GENERAL PROVISIONS"
+    },
+    {
+      "clause_a_ordinal": 13,
+      "clause_b_ordinal": 14,
+      "change_type": "unchanged",
+      "what_changed": "No substantive change in terms.",
+      "who_benefits": "balanced",
+      "risk_delta": "neutral",
+      "quote_a": "(a) This Agreement constitutes the entire agreement between the parties.",
+      "quote_b": "(a) This Agreement constitutes the entire agreement between the parties."
+    },
+    {
+      "clause_a_ordinal": 14,
+      "clause_b_ordinal": null,
+      "change_type": "removed",
+      "what_changed": "Removed clause on (b) Amendments must be in writing and signed by both parties..",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "(b) Amendments must be in writing and signed by both parties.",
+      "quote_b": null
+    },
+    {
+      "clause_a_ordinal": 15,
+      "clause_b_ordinal": null,
+      "change_type": "removed",
+      "what_changed": "Removed clause on (c) Neither party may assign this Agreement without the other party's written consent..",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": "(c) Neither party may assign this Agreement without the other party's written consent.",
+      "quote_b": null
+    },
+    {
+      "clause_a_ordinal": 16,
+      "clause_b_ordinal": 17,
+      "change_type": "unchanged",
+      "what_changed": "No substantive change in terms.",
+      "who_benefits": "balanced",
+      "risk_delta": "neutral",
+      "quote_a": "(d) Notices shall be sent to the addresses stated above or to such other address",
+      "quote_b": "(d) Notices shall be sent to the addresses stated above or to such other address"
+    },
+    {
+      "clause_a_ordinal": null,
+      "clause_b_ordinal": 12,
+      "change_type": "added",
+      "what_changed": "Non-compete clause added for 12 months with competitor (not present in v1).",
+      "who_benefits": "client",
+      "risk_delta": "worse",
+      "quote_a": null,
+      "quote_b": "11. NON-COMPETE\nDuring the term of this Agreement and for a period of 12 months thereafter, the Freelancer shall not pro"
+    },
+    {
+      "clause_a_ordinal": null,
+      "clause_b_ordinal": 15,
+      "change_type": "added",
+      "what_changed": "Added new clause on (b) The Client may amend the terms of this Agreement by providing 15 days' written notice to the Freelancer. Continued provision of services after such notice constitutes acceptance of the amended terms..",
+      "who_benefits": "mutual",
+      "risk_delta": "neutral",
+      "quote_a": null,
+      "quote_b": "(b) The Client may amend the terms of this Agreement by providing 15 days' written notice to the Freelancer. Continued p"
+    },
+    {
+      "clause_a_ordinal": null,
+      "clause_b_ordinal": 16,
+      "change_type": "added",
+      "what_changed": "Added new clause on (c) The Client may assign this Agreement to any affiliate or successor. The Freelancer may not assign this Agreement without the Client's written consent..",
+      "who_benefits": "mutual",
+      "risk_delta": "neutral",
+      "quote_a": null,
+      "quote_b": "(c) The Client may assign this Agreement to any affiliate or successor. The Freelancer may not assign this Agreement wit"
+    }
+  ],
+  "bottom_line": [
+    "• Unilateral amendment clause added: Client may amend on 15 days notice, continued service is acceptance. (Who benefits: client)",
+    "• Scope changes now unilateral by client to modify without additional compensation. (Who benefits: client)",
+    "• Auto-renewal added with 60 days advance opt-out notice required only by freelancer. (Who benefits: client)",
+    "• Payment terms changed from 15 days to 60 days, and payment withholding rights added. (Who benefits: client)",
+    "• IP ownership on creation regardless of payment status, and portfolio use restricted without prior written consent. (Who benefits: client)"
+  ]
+}

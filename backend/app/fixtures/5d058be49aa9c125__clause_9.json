@@ -1,0 +1,21 @@
+{
+  "clause_type": "dispute resolution",
+  "plain_english": "If a disagreement comes up, you must settle it by arbitration under India's Arbitration and Conciliation Act, 1996, in Mumbai, and the client gets to pick the single arbitrator.",
+  "what_it_means_for_you": "You cannot go straight to court and you have no say in who decides the dispute, which could be disadvantageous.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The client alone selects the arbitrator, which may lead to bias against you.",
+    "The clause forces arbitration, limiting your ability to pursue court remedies.",
+    "It does not say who will pay the arbitration costs, so you might have to bear them."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can we agree on a neutral arbitrator or a panel instead of a sole arbitrator chosen by the client?",
+    "Will the costs of arbitration be shared or borne by one party?",
+    "Is there any provision for appealing the arbitrator’s decision?",
+    "Can we include an option to go to court for certain types of disputes?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "sole arbitrator appointed by the Client"
+}

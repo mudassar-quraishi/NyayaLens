@@ -1,0 +1,21 @@
+{
+  "clause_type": "scope of services / modification",
+  "plain_english": "You will do social‑media, content and digital‑marketing work as listed in Exhibit A. The client can change what you have to do at any time by sending you written notice, and you must follow the new instructions without extra pay unless the change greatly increases the amount of work, in which case you both must negotiate a new fee.",
+  "what_it_means_for_you": "You may have to do more work for the same pay unless the client agrees to pay more after a good‑faith negotiation.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "The clause lets the client change the work at any time, which could increase your workload.",
+    "It does not define what counts as a \"substantially\" larger volume of work, making it ambiguous.",
+    "If the client does not agree to negotiate extra pay, you must still comply with the new tasks for the original fee."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "How does the client determine whether a change \"substantially increases\" the volume of work?",
+    "Is there a timeline or procedure for negotiating additional compensation?",
+    "Will there be a limit on how many or how large the modifications can be?",
+    "What notice period applies to the client’s written modifications?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.88,
+  "evidence_quote": "The Client may modify the scope of services at any time by providing written notice to the Freelancer, and the Freelancer shall comply with such modifications without additional compensation unless the modification substantially increases the volume of work, in which case the parties shall negotiate in good faith."
+}

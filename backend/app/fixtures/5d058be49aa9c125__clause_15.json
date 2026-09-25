@@ -1,0 +1,22 @@
+{
+  "clause_type": "amendment",
+  "plain_english": "The client can change any part of this agreement as long as it gives you a written notice at least 15 days before the change takes effect. If you keep working after that notice, you are considered to have agreed to the new terms.",
+  "what_it_means_for_you": "You must decide whether to keep working or stop, because continuing means you automatically accept the client’s changes.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The client can alter the contract unilaterally, which is one‑sided.",
+    "Only 15 days’ notice may not give you enough time to evaluate the new terms.",
+    "Your acceptance is assumed simply by continuing work, without a separate written agreement."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can the client amend any term, or are there limits?",
+    "Will I be notified in a specific way (email, post, etc.)?",
+    "What happens if I do not agree with the amendment?",
+    "Can I negotiate or reject the changes without breaching the contract?",
+    "Will the amendment affect my payment, scope, or liability?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "The Client may amend the terms of this Agreement by providing 15 days' written notice to the Freelancer. Continued provision of services after such notice constitutes acceptance of the amended terms."
+}

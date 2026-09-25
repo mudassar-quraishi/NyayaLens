@@ -1,0 +1,20 @@
+{
+  "clause_type": "assignment",
+  "plain_english": "The client can transfer this contract to any of its related companies or a successor without asking you, but you cannot transfer the contract to anyone else unless the client gives you written permission.",
+  "what_it_means_for_you": "You may be forced to work for a different company if the client assigns the agreement, and you cannot change who you work for without the client’s consent.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "The clause lets the client assign the agreement freely, which could place you under a new party you didn’t choose.",
+    "Your ability to assign the contract is restricted, creating an imbalance of rights between the parties."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Will the client notify me in writing before assigning the agreement to an affiliate or successor?",
+    "If the agreement is assigned, will the payment terms and obligations remain the same?",
+    "Can I request the new party’s details and any changes to the scope of work?",
+    "What happens if I need to assign my rights to a subcontractor—do I need the client’s consent each time?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "The Client may assign this Agreement to any affiliate or successor. The Freelancer may not assign this Agreement without the Client's written consent."
+}

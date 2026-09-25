@@ -1,0 +1,35 @@
+{
+  "missing_clauses": [
+    {
+      "name": "Payment Schedule and Late‑Payment Interest",
+      "why_it_matters": "Clause [C4] only states that the Client shall pay a monthly retainer of Rs. 75,000/‑ but does not specify when invoices are due, the exact due date each month, or any interest/penalty for late payment. The key facts list “1.5% per month” which is not reflected in the clause, leaving the parties without a clear remedy for delayed payment.",
+      "severity": "medium"
+    },
+    {
+      "name": "Scope Change / Variation Process",
+      "why_it_matters": "Clause [C2] defines the scope of services but the agreement contains no mechanism for handling changes to that scope (e.g., additional work, revised deliverables, or price adjustments). Without such a clause, either party may be forced to perform or pay for work outside the original agreement, leading to disputes.",
+      "severity": "high"
+    },
+    {
+      "name": "Confidentiality Duration",
+      "why_it_matters": "Clause [C6] states that confidentiality obligations continue “for a pe…”, but the excerpt is truncated and does not disclose the exact term (e.g., for the duration of the agreement, a set number of years thereafter, or indefinitely). Unclear duration can make enforcement difficult.",
+      "severity": "medium"
+    },
+    {
+      "name": "Pre‑Existing Intellectual Property / License Grant",
+      "why_it_matters": "Clause [C5] says all deliverables become the Client’s property upon full payment, but it does not address the status of any pre‑existing IP the Freelancer may use (e.g., stock images, tools, or prior work) or whether the Freelancer retains a license to use their own background materials. This omission can create ownership disputes later.",
+      "severity": "medium"
+    },
+    {
+      "name": "Termination for Cause / Material Breach",
+      "why_it_matters": "Clause [C8] provides a 30‑day notice termination right for either party, but there is no separate provision allowing immediate termination for material breach, non‑payment, or gross misconduct. Lack of a cause‑based termination right can leave a party stuck in a dysfunctional relationship.",
+      "severity": "medium"
+    },
+    {
+      "name": "Force Majeure Notice and Mitigation Requirements",
+      "why_it_matters": "Clause [C11] lists events that excuse performance but does not require the affected party to give timely notice or to take reasonable steps to mitigate the impact. Including such duties helps protect the non‑affected party from indefinite delays.",
+      "severity": "low"
+    }
+  ],
+  "inconsistencies": []
+}

@@ -1,0 +1,20 @@
+{
+  "clause_type": "assignment",
+  "plain_english": "Neither you nor the client can transfer or sell this contract to anyone else unless you both give written permission first.",
+  "what_it_means_for_you": "You cannot hand over the work or your rights under this agreement to another party without the client’s written consent.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause applies equally to both parties, so it isn’t unusually one‑sided.",
+    "It may delay you if you need to assign the contract and the client withholds consent, but it does not strip any rights outright."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What form of \"written consent\" is acceptable (email, signed letter, etc.)?",
+    "Can the client unreasonably refuse consent, and what would happen then?",
+    "Does the clause allow assignment to affiliates or subsidiaries without separate consent?",
+    "Is there a time frame within which consent must be provided?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "(c) Neither party may assign this Agreement without the other party's written consent."
+}

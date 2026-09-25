@@ -1,0 +1,18 @@
+{
+  "clause_type": "amendments",
+  "plain_english": "Any changes to this agreement must be put in writing and signed by both you and the client.",
+  "what_it_means_for_you": "You can’t rely on verbal promises; any change has to be documented and signed by both parties.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause only requires written, signed amendments, which is a standard protection for both sides.",
+    "It prevents either party from altering the contract unilaterally."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What process will we use to draft and sign amendments?",
+    "Will electronic signatures be accepted?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Amendments must be in writing and signed by both parties."
+}

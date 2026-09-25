@@ -1,0 +1,17 @@
+{
+  "clause_type": "integration (entire agreement)",
+  "plain_english": "This contract is the complete and final agreement between you and the client; anything said before or outside the written document does not count unless it is added in writing and signed by both parties.",
+  "what_it_means_for_you": "You can only rely on what is written here, not on any earlier promises or informal chats.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause simply limits the parties to the written contract, which is standard and does not create new obligations or penalties."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "If there were any verbal agreements or understandings, do we need them added to the contract?",
+    "How will future changes be documented to ensure they are enforceable?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "(a) This Agreement constitutes the entire agreement between the parties."
+}

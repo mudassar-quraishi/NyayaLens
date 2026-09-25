@@ -1,0 +1,14 @@
+{
+  "clause_type": "unknown",
+  "plain_english": "The specific clause text was not provided, so it cannot be rewritten.",
+  "what_it_means_for_you": "Cannot determine impact without seeing the clause.",
+  "risk_level": "low",
+  "risk_reasons": [],
+  "favors": "unclear",
+  "questions_to_ask": [
+    "Please provide the full text of the clause you want analyzed."
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.5,
+  "evidence_quote": ""
+}

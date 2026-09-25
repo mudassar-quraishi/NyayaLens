@@ -1,0 +1,19 @@
+{
+  "clause_type": "governing_law",
+  "plain_english": "The contract will be interpreted according to Indian law, and any lawsuit must be filed in the courts of Mumbai, Maharashtra.",
+  "what_it_means_for_you": "You must resolve any dispute in Mumbai courts under Indian law.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause is a standard choice‑of‑law and venue provision and does not impose unusual penalties.",
+    "It does not limit your rights beyond requiring you to go to a specific court."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "Are you comfortable traveling to or litigating in Mumbai if a dispute arises?",
+    "Would you prefer an alternative dispute‑resolution method (e.g., arbitration) instead of court?",
+    "Do you have any legal representation in Mumbai to handle potential disputes?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "This Agreement shall be governed by the laws of India. The courts at Mumbai, Maharashtra shall have exclusive jurisdiction over any disputes."
+}

@@ -353,17 +353,21 @@ async def compare_documents(
             aligned_pairs="\n".join(pairs_summary),
         )
 
-        llm_result = await generate_json(
-            schema=ComparisonResultLLM,
-            system=P3_COMPARATOR_SYSTEM.format(user_role=user_role),
-            user=user_prompt,
-            prompt_name="compare",
-            content_hash=f"{content_hash_a}_{content_hash_b}",
+        import asyncio
+        llm_result: ComparisonResultLLM = await asyncio.wait_for(
+            generate_json(
+                schema=ComparisonResultLLM,
+                system=P3_COMPARATOR_SYSTEM.format(user_role=user_role),
+                user=user_prompt,
+                prompt_name="compare",
+                content_hash=f"{content_hash_a}_{content_hash_b}",
+            ),
+            timeout=15.0,
         )
         comparison_pairs = llm_result.pairs
         bottom_line = llm_result.bottom_line
     except Exception as e:
-        logger.info("Using heuristic comparator: %s", e)
+        logger.warning("Using heuristic comparator: %s", e)
         for ca, cb in aligned:
             pair = analyze_clause_pair_heuristic(ca, cb, user_role=user_role)
             comparison_pairs.append(pair)

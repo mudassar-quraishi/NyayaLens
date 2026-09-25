@@ -1,0 +1,21 @@
+{
+  "clause_type": "payment",
+  "plain_english": "The client will pay you Rs 75,000 each month, but only after you send an invoice on the 1st of the month for the previous month’s work, and the client has up to 60 days to pay that invoice. The client can hold back payment if it reasonably thinks the work isn’t up to the agreed quality, but must tell you what’s wrong before the 60‑day deadline.",
+  "what_it_means_for_you": "You’ll get paid monthly, but you might have to wait up to two months and could have payment delayed or withheld if the client claims the work is sub‑standard.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "A 60‑day payment window is longer than typical freelance terms and can affect cash flow.",
+    "The clause lets the client withhold payment based on a subjective ‘reasonable belief’ about quality, which is ambiguous.",
+    "The client must notify you of any deficiency, but the notice period is tied to the same 60‑day payment window, giving the client ample time to delay payment."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "What specific quality standards will be used to judge the work?",
+    "Will there be a written checklist or acceptance criteria for each deliverable?",
+    "If payment is withheld, what recourse do I have to dispute the client’s claim?",
+    "Can the payment period be shortened to a more typical 30 days?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.88,
+  "evidence_quote": "The Client may withhold payment if it reasonably believes that the services do not meet the quality standards, and shall notify the Freelancer of the deficiency within the payment period."
+}

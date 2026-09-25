@@ -1,0 +1,20 @@
+{
+  "clause_type": "liability and indemnification",
+  "plain_english": "The freelancer will only be liable for up to the amount of fees the client paid the freelancer in the three months before any claim, and both sides must cover each other for losses caused by their own negligence or breach of the agreement.",
+  "what_it_means_for_you": "Your financial exposure is limited to recent fees, but you still must pay the client’s costs if you’re found negligent, and the client must do the same for their negligence.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The liability cap protects you from large damages beyond recent fees",
+    "Indemnification is mutual, so you could still owe money if you’re deemed negligent",
+    "The clause does not define what counts as negligence, which could lead to disputes"
+  ],
+  "favors": "party_b",
+  "questions_to_ask": [
+    "How is \"negligence\" defined for each party?",
+    "Are there any exceptions to the liability cap (e.g., intentional misconduct)?",
+    "What process will be used to determine and pay indemnified amounts?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.85,
+  "evidence_quote": "The Freelancer's total liability under this Agreement shall not exceed the total fees paid to the Freelancer in the 3 (three) months preceding the claim. Each party shall indemnify the other against claims arising from their negligence or breach of this Agreement."
+}

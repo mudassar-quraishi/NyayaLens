@@ -1,0 +1,21 @@
+{
+  "clause_type": "confidentiality",
+  "plain_english": "Both you and the client must keep any proprietary information you exchange secret while the contract is active and for two years after it ends, and you may not share that information with anyone else unless you get written permission first.",
+  "what_it_means_for_you": "You must not reveal the client’s confidential data during and for two years after the project unless you have written consent.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause applies equally to both parties, so it isn’t one‑sided.",
+    "It only requires confidentiality and does not impose any harsh penalties for breach.",
+    "The two‑year post‑term period is a common, reasonable duration."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What specific types of information are considered \"proprietary\" under this agreement?",
+    "How should I obtain written consent before disclosing anything?",
+    "Are there any exceptions (e.g., legal requirements) to the confidentiality obligation?",
+    "What remedies or damages apply if either party breaches the clause?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Both parties shall maintain the confidentiality of proprietary information exchanged during the term of this Agreement and for a period of 2 (two) years thereafter. Neither party shall disclose such information to third parties without prior written consent."
+}

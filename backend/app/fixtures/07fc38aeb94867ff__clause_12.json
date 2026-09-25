@@ -1,0 +1,19 @@
+{
+  "clause_type": "general provisions",
+  "plain_english": "This part says the contract is the whole agreement, any changes must be written and signed by both sides, you cannot transfer (assign) your rights or duties to someone else without the other side’s written permission, and any official notices must be sent to the addresses listed in the contract (or any new address you later provide in writing).",
+  "what_it_means_for_you": "You must follow a formal written process for any changes, cannot subcontract or hand over your work without the client’s consent, and must keep track of where official notices are sent.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Requiring written amendments limits informal flexibility",
+    "The assignment restriction may prevent you from subcontracting without permission"
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What is the process for getting a written amendment signed?",
+    "Can I assign or subcontract my work if I obtain the client’s written consent, and how is that consent documented?",
+    "What specific addresses should I use for notices, and how will I know if the other party changes theirs?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "(c) Neither party may assign this Agreement without the other party's written consent."
+}

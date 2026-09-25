@@ -1,0 +1,20 @@
+{
+  "clause_type": "Intellectual Property",
+  "plain_english": "When the client pays you in full, all work you create becomes the client’s property, but you can still show that work in your portfolio. You also promise that the work is original and doesn’t violate anyone else’s rights.",
+  "what_it_means_for_you": "You lose ownership of the work once you’re paid, but you can still use it for self‑promotion; you must ensure it doesn’t infringe third‑party rights.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "If a third‑party claims the work infringes their rights, you could be held liable because you warranted originality.",
+    "If the client delays or withholds payment, ownership of the work remains unclear until full payment is received."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "What happens to ownership if the client pays late or only partially?",
+    "Do I need the client’s written consent before displaying the deliverables in my portfolio?",
+    "Am I required to indemnify the client if a third‑party infringement claim arises?",
+    "Is there any time limit on my warranty of originality?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.88,
+  "evidence_quote": "All deliverables created by the Freelancer under this Agreement shall become the property of the Client upon full payment. The Freelancer retains the right to use the deliverables in their portfolio. The Freelancer warrants that all deliverables are original and do not infringe any third-party rights."
+}

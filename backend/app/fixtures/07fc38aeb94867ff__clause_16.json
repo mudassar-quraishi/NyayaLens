@@ -1,0 +1,19 @@
+{
+  "clause_type": "notice",
+  "plain_english": "Any formal notice must be sent to the address that appears in this agreement, or to a new address if a party tells the other party about the change in writing.",
+  "what_it_means_for_you": "You need to keep the other side updated in writing if you change your address, otherwise notices will be considered sent to the original address listed.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause is a standard notice provision and does not give either party extra rights or penalties.",
+    "It does not specify a method (email, post, etc.) but that is typical and not unusually restrictive."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What form of written notice is acceptable (email, registered post, etc.)?",
+    "How quickly must the other party acknowledge a change of address?",
+    "Is there a deadline for sending notice after a change of address?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Notices shall be sent to the addresses stated above or to such other address as may be notified in writing."
+}

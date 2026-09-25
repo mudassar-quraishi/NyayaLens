@@ -289,6 +289,31 @@ class BriefSectionLLM(BaseModel):
     documents_to_bring: list[str]
 
 
+# ── Situation Navigator ────────────────────────────────────────────
+
+class EscalationStepLLM(BaseModel):
+    step_number: int = Field(default=1)
+    title: str = Field(default="")
+    timeframe: str = Field(default="")
+    cost_estimate: str = Field(default="")
+    action_description: str = Field(default="")
+    tips: list[str] = Field(default_factory=list)
+
+class NavigatorResponseLLM(BaseModel):
+    situation_summary: str = Field(default="")
+    dispute_category: str = Field(default="General Legal Dispute")
+    urgent_lawyer_needed: bool = Field(default=False)
+    urgent_reasons: list[str] = Field(default_factory=list)
+    steps: list[EscalationStepLLM] = Field(default_factory=list)
+    evidence_needed: list[str] = Field(default_factory=list)
+    free_legal_aid: list[dict] = Field(default_factory=list)
+    escalation_ladder: list[dict] = Field(default_factory=list)
+    evidence_to_gather: list[str] = Field(default_factory=list)
+    rough_cost_time: str = ""
+    urgent_lawyer_triggers: list[str] = Field(default_factory=list)
+    legal_aid_resources: list[dict] = Field(default_factory=list)
+
+
 # ── Progress SSE ───────────────────────────────────────────────────
 
 class ProgressEvent(BaseModel):

@@ -1,0 +1,22 @@
+{
+  "clause_type": "general provisions",
+  "plain_english": "(a) This contract is the whole agreement between you and the client. (b) The client can change any term by giving you 15 days' written notice, and if you keep working after that you are considered to have accepted the new terms. (c) The client can transfer the contract to any affiliate or successor, but you cannot transfer it without the client’s written consent. (d) All official notices must be sent to the addresses listed in the agreement or any new address that is later provided in writing.",
+  "what_it_means_for_you": "You must keep working under any new terms the client adds after just 15 days' notice, unless you stop providing services.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The client can unilaterally amend the agreement with only 15 days' notice, which may bind you to new obligations you haven’t negotiated.",
+    "Your continued performance is treated as acceptance of those changes, limiting your ability to reject them.",
+    "Only the client has the right to assign the agreement, while you need the client’s consent to assign, creating an imbalance."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "What specific types of changes does the client anticipate making under the amendment clause?",
+    "Can you negotiate a longer notice period or a mutual amendment right?",
+    "Will you be compensated for any additional work resulting from amended terms?",
+    "What happens if you do not wish to accept the amended terms – can you terminate without penalty?",
+    "Will the client provide a summary of changes before the 15‑day notice period ends?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.88,
+  "evidence_quote": "(b) The Client may amend the terms of this Agreement by providing 15 days' written notice to the Freelancer. Continued provision of services after such notice constitutes acceptance of the amended terms."
+}

@@ -307,11 +307,6 @@ export const useStore = create<AppState>((set, get) => ({
       const docA = await api.uploadText(s.id, v1Text, 'freelance_v1.txt');
       const docB = await api.uploadText(s.id, v2Text, 'freelance_v2.txt');
 
-      await Promise.all([
-        api.triggerAnalysis(docA.id),
-        api.triggerAnalysis(docB.id),
-      ]);
-
       const compResp = await api.compareDocuments(docA.id, docB.id);
       set({
         currentDoc: docB,

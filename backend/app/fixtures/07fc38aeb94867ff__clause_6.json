@@ -1,0 +1,20 @@
+{
+  "clause_type": "confidentiality",
+  "plain_english": "Both you and the client must keep any proprietary information they share with you secret during the contract and for two years after it ends, and you cannot tell anyone else about it unless you get written permission first.",
+  "what_it_means_for_you": "You must not disclose the client’s confidential data for the contract period plus two years without their written consent.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The confidentiality obligation applies equally to both parties, so it is not one‑sided.",
+    "A two‑year post‑termination period is a common, reasonable duration in India.",
+    "The clause does not impose penalties for accidental disclosure, only requires prior written consent for sharing."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What specific information does the client consider \"proprietary\" or \"confidential\"?",
+    "Are there any exceptions (e.g., disclosures required by law) that are allowed without written consent?",
+    "What form does \"prior written consent\" need to take (email, signed letter, etc.)?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "Both parties shall maintain the confidentiality of proprietary information exchanged during the term of this Agreement and for a period of 2 (two) years thereafter. Neither party shall disclose such information to third parties without prior written consent."
+}

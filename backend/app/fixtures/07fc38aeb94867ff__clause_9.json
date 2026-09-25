@@ -1,0 +1,21 @@
+{
+  "clause_type": "dispute resolution",
+  "plain_english": "If a disagreement comes up, you must first try to settle it through mediation. If that doesn’t work within 30 days, the dispute will go to binding arbitration under India’s Arbitration and Conciliation Act, 1996, and the arbitration will take place in Pune, Maharashtra.",
+  "what_it_means_for_you": "You will have to resolve any conflict by mediation first and then by arbitration in Pune, which may require travel or legal representation there.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "The arbitration location (Pune) may be inconvenient or costly for you if you are not based there.",
+    "Mandatory arbitration limits your ability to go to court, which can be less favorable if you prefer a judicial forum."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Who will pay the costs of mediation and arbitration?",
+    "Can you choose the arbitrator or have a say in the selection process?",
+    "Is the arbitration decision final and binding with no right of appeal?",
+    "Will the arbitration be conducted in a language you are comfortable with?",
+    "Can the arbitration be held remotely if travel is difficult?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.88,
+  "evidence_quote": "If mediation fails within 30 days, the dispute shall be referred to arbitration under the Arbitration and Conciliation Act, 1996. The arbitration shall be conducted in Pune, Maharashtra."
+}

@@ -1,0 +1,18 @@
+{
+  "clause_type": "force majeure",
+  "plain_english": "If something like a natural disaster, war, pandemic, or government action stops either you or the client from doing what the contract requires, neither side will be held responsible, as long as the affected side tells the other within 7 days.",
+  "what_it_means_for_you": "You won’t be blamed for not delivering work if a major, uncontrollable event occurs, provided you give notice within a week.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause equally excuses both parties from performance when events beyond control occur, which is a standard protection."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What specific events would qualify as ‘circumstances beyond reasonable control’ for each party?",
+    "If I’m unable to give notice within 7 days, what consequences could arise?",
+    "Is there any obligation to try to mitigate the impact of the force majeure event?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.92,
+  "evidence_quote": "Neither party shall be liable for failure to perform obligations due to circumstances beyond their reasonable control, including but not limited to natural disasters, war, pandemic, or government actions. The affected party shall notify the other party within 7 days."
+}

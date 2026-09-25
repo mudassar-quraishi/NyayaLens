@@ -1,0 +1,17 @@
+{
+  "clause_type": "entire agreement",
+  "plain_english": "This clause says the written contract is the complete and final agreement between you and the client; anything said before or outside the contract doesn’t count.",
+  "what_it_means_for_you": "You can’t rely on any oral promises or side‑notes that aren’t written in the contract.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "It limits reliance on any prior or informal understandings, which could be a disadvantage if you expected extra benefits not captured in writing."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "Are there any verbal promises or side agreements that you need to get written into the contract?",
+    "How will the client’s amendment right in clause (b) interact with this ‘entire agreement’ provision?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "This Agreement constitutes the entire agreement between the parties."
+}

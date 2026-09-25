@@ -1,0 +1,21 @@
+{
+  "clause_type": "intellectual_property",
+  "plain_english": "Anything you create for the client becomes the client’s sole property the moment you make it, even if they haven’t paid you yet. You can’t show that work in your portfolio unless the client gives you written permission, and you promise the work is original and doesn’t infringe anyone else’s rights.",
+  "what_it_means_for_you": "You lose ownership of your work and may be barred from using it to market yourself unless the client agrees.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "The client gets full ownership of all deliverables even if they never pay, which could leave you uncompensated for your work.",
+    "You are prohibited from using the work in your portfolio without the client’s written consent, limiting your ability to showcase experience.",
+    "The clause places the burden on you to guarantee originality and non‑infringement, exposing you to liability for any third‑party claims."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Will the client provide written consent for portfolio use, and what is the process?",
+    "What happens to the ownership of the work if the client fails to pay on time?",
+    "Is there any compensation or credit if the client refuses to allow portfolio use?",
+    "Can we include a clause that reverts ownership to the freelancer if payment is not received?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.9,
+  "evidence_quote": "All deliverables ... shall become the exclusive property of the Client upon creation, regardless of payment status."
+}

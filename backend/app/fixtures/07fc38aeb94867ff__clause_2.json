@@ -1,0 +1,20 @@
+{
+  "clause_type": "scope_of_services",
+  "plain_english": "You (the freelancer) will do social‑media management, create content, and run digital‑marketing tasks exactly as listed in the Statement of Work (Exhibit A). If either side wants to add, remove, or change any of those tasks, the change must be written down in an amendment that both you and the client sign.",
+  "what_it_means_for_you": "Your duties are limited to what’s written in Exhibit A, and any changes must be formally agreed to in writing.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause clearly defines what you must do and requires a written amendment for any changes, which protects you from unexpected work.",
+    "It does not impose any penalties or give the client the power to change the work unilaterally."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What specific tasks are listed in Exhibit A?",
+    "If the client wants extra work, how will the amendment be handled and will there be additional compensation?",
+    "Who bears the cost of preparing the written amendment?",
+    "Is there a timeline for approving amendments?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "The Freelancer shall provide social media management, content creation, and digital marketing services as described in the Statement of Work attached as Exhibit A. Any changes to the scope of services shall be documented in a written amendment signed by both parties."
+}

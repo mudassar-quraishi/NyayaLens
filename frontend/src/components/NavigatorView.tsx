@@ -101,128 +101,148 @@ export function NavigatorView() {
       )}
 
       {/* Results Section */}
-      {navigatorResult && !isNavigating && (
-        <div className="space-y-8 font-sans">
-          {/* Urgent Lawyer Banner */}
-          {navigatorResult.urgent_lawyer_needed && (
-            <div className="p-4 rounded-lg bg-[var(--color-vermilion-bg)] border border-[var(--color-vermilion)] text-[var(--color-vermilion)]">
-              <div className="flex items-center gap-2 font-bold text-sm mb-1">
-                <span>⚠️</span>
-                <span>Immediate Legal Notice Recommended</span>
+      {navigatorResult && !isNavigating && (() => {
+        const stepsRaw = navigatorResult.steps || (navigatorResult as any).escalation_ladder || [];
+        const normalizedSteps: EscalationStep[] = stepsRaw.map((s: any, idx: number) => ({
+          step_number: s.step_number ?? s.step ?? idx + 1,
+          title: s.title ?? s.stage ?? `Step ${idx + 1}`,
+          timeframe: s.timeframe ?? s.expected_timeline ?? 'Varies',
+          cost_estimate: s.cost_estimate ?? s.rough_cost ?? 'Varies',
+          action_description: s.action_description ?? s.action ?? '',
+          tips: Array.isArray(s.tips) ? s.tips : [],
+        }));
+        const urgentReasons = navigatorResult.urgent_reasons || (navigatorResult as any).urgent_lawyer_triggers || [];
+        const evidenceNeeded = navigatorResult.evidence_needed || (navigatorResult as any).evidence_to_gather || [];
+        const legalAid = navigatorResult.free_legal_aid || (navigatorResult as any).legal_aid_resources || [];
+        const isUrgent = Boolean(navigatorResult.urgent_lawyer_needed || urgentReasons.length > 0);
+
+        return (
+          <div className="space-y-8 font-sans">
+            {/* Urgent Lawyer Banner */}
+            {isUrgent && (
+              <div className="p-4 rounded-lg bg-[var(--color-vermilion-bg)] border border-[var(--color-vermilion)] text-[var(--color-vermilion)]">
+                <div className="flex items-center gap-2 font-bold text-sm mb-1">
+                  <span>⚠️</span>
+                  <span>Immediate Legal Notice Recommended</span>
+                </div>
+                <ul className="text-xs space-y-1 list-disc pl-5">
+                  {urgentReasons.map((r: string, i: number) => (
+                    <li key={i}>{r}</li>
+                  ))}
+                </ul>
               </div>
-              <ul className="text-xs space-y-1 list-disc pl-5">
-                {navigatorResult.urgent_reasons.map((r, i) => (
-                  <li key={i}>{r}</li>
+            )}
+
+            {/* Situation Summary & Category */}
+            <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-mono text-xs uppercase px-2 py-0.5 rounded bg-[var(--color-paper-dark)] text-[var(--color-ink)]">
+                  Category: {navigatorResult.dispute_category || 'Dispute Assessment'}
+                </span>
+                <span className="text-xs text-[var(--color-ink-light)] font-mono">Calibrated Indian Legal Framework</span>
+              </div>
+              <p className="text-sm font-serif text-[var(--color-ink)] leading-relaxed">
+                {navigatorResult.situation_summary}
+              </p>
+            </div>
+
+            {/* 4-Step Escalation Ladder */}
+            <div>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-ink-light)] mb-4">
+                Step-by-Step Escalation Ladder
+              </h3>
+              <div className="space-y-4">
+                {normalizedSteps.map((step: EscalationStep) => (
+                  <div
+                    key={step.step_number}
+                    className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm hover:border-[var(--color-ink-light)] transition-colors"
+                  >
+                    <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                      <div className="flex items-center gap-3">
+                        <span className="w-7 h-7 rounded-full bg-[var(--color-ink)] text-[var(--color-paper)] font-mono text-xs flex items-center justify-center font-bold">
+                          {step.step_number}
+                        </span>
+                        <h4 className="text-base font-semibold font-serif text-[var(--color-ink)]">
+                          {step.title}
+                        </h4>
+                      </div>
+
+                      <div className="flex items-center gap-2 font-mono text-xs">
+                        <span className="px-2 py-0.5 rounded bg-[var(--color-paper)] text-[var(--color-ink-faded)] border border-[var(--color-paper-dark)]">
+                          ⏱ {step.timeframe}
+                        </span>
+                        <span className="px-2 py-0.5 rounded bg-[var(--color-paper)] text-[var(--color-ink-faded)] border border-[var(--color-paper-dark)]">
+                          💰 {step.cost_estimate}
+                        </span>
+                      </div>
+                    </div>
+
+                    <p className="text-sm text-[var(--color-ink-faded)] font-serif mb-3 leading-relaxed">
+                      {step.action_description}
+                    </p>
+
+                    {(step.tips || []).length > 0 && (
+                      <div className="bg-[var(--color-paper)] rounded p-3 text-xs text-[var(--color-ink)] space-y-1">
+                        <span className="font-mono font-semibold uppercase text-[var(--color-ink-light)] block mb-1">
+                          Practical Tips:
+                        </span>
+                        {(step.tips || []).map((t, idx) => (
+                          <div key={idx} className="flex items-start gap-1.5">
+                            <span className="text-[var(--color-sage)] font-bold">✓</span>
+                            <span>{t}</span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
-          )}
 
-          {/* Situation Summary & Category */}
-          <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
-            <div className="flex items-center justify-between mb-3">
-              <span className="font-mono text-xs uppercase px-2 py-0.5 rounded bg-[var(--color-paper-dark)] text-[var(--color-ink)]">
-                Category: {navigatorResult.dispute_category}
-              </span>
-              <span className="text-xs text-[var(--color-ink-light)] font-mono">Calibrated Indian Legal Framework</span>
-            </div>
-            <p className="text-sm font-serif text-[var(--color-ink)] leading-relaxed">
-              {navigatorResult.situation_summary}
-            </p>
-          </div>
-
-          {/* 4-Step Escalation Ladder */}
-          <div>
-            <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-ink-light)] mb-4">
-              Step-by-Step Escalation Ladder
-            </h3>
-            <div className="space-y-4">
-              {navigatorResult.steps.map((step: EscalationStep) => (
-                <div
-                  key={step.step_number}
-                  className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm hover:border-[var(--color-ink-light)] transition-colors"
-                >
-                  <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <div className="flex items-center gap-3">
-                      <span className="w-7 h-7 rounded-full bg-[var(--color-ink)] text-[var(--color-paper)] font-mono text-xs flex items-center justify-center font-bold">
-                        {step.step_number}
-                      </span>
-                      <h4 className="text-base font-semibold font-serif text-[var(--color-ink)]">
-                        {step.title}
-                      </h4>
+            {/* Evidence Needed */}
+            {evidenceNeeded.length > 0 && (
+              <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
+                <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-ink-light)] mb-3">
+                  Required Evidence Checklist
+                </h3>
+                <p className="text-xs text-[var(--color-ink-faded)] mb-3">
+                  Before sending legal notices or filing claims, assemble these records:
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                  {evidenceNeeded.map((item: string, idx: number) => (
+                    <div key={idx} className="flex items-center gap-2 p-2 bg-[var(--color-paper)] rounded border border-[var(--color-paper-dark)]">
+                      <span className="text-[var(--color-vermilion)]">📁</span>
+                      <span>{item}</span>
                     </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
-                    <div className="flex items-center gap-2 font-mono text-xs">
-                      <span className="px-2 py-0.5 rounded bg-[var(--color-paper)] text-[var(--color-ink-faded)] border border-[var(--color-paper-dark)]">
-                        ⏱ {step.timeframe}
-                      </span>
-                      <span className="px-2 py-0.5 rounded bg-[var(--color-paper)] text-[var(--color-ink-faded)] border border-[var(--color-paper-dark)]">
-                        💰 {step.cost_estimate}
-                      </span>
+            {/* Free Legal Aid Directory */}
+            {legalAid.length > 0 && (
+              <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
+                <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-sage)] mb-3">
+                  Free & Subsidized Legal Aid Directory (India)
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                  {legalAid.map((aid: any, idx: number) => (
+                    <div key={idx} className="p-4 rounded border border-[var(--color-paper-dark)] bg-[var(--color-paper)]">
+                      <h5 className="font-semibold text-sm text-[var(--color-ink)] mb-1 font-serif">
+                        {aid.name}
+                      </h5>
+                      <p className="text-[var(--color-ink-faded)] mb-2">{aid.description}</p>
+                      <div className="font-mono text-[var(--color-ink)] font-medium">
+                        📞 {aid.contact}
+                      </div>
                     </div>
-                  </div>
-
-                  <p className="text-sm text-[var(--color-ink-faded)] font-serif mb-3 leading-relaxed">
-                    {step.action_description}
-                  </p>
-
-                  {step.tips.length > 0 && (
-                    <div className="bg-[var(--color-paper)] rounded p-3 text-xs text-[var(--color-ink)] space-y-1">
-                      <span className="font-mono font-semibold uppercase text-[var(--color-ink-light)] block mb-1">
-                        Practical Tips:
-                      </span>
-                      {step.tips.map((t, idx) => (
-                        <div key={idx} className="flex items-start gap-1.5">
-                          <span className="text-[var(--color-sage)] font-bold">✓</span>
-                          <span>{t}</span>
-                        </div>
-                      ))}
-                    </div>
-                  )}
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            )}
           </div>
-
-          {/* Evidence Needed */}
-          <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
-            <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-ink-light)] mb-3">
-              Required Evidence Checklist
-            </h3>
-            <p className="text-xs text-[var(--color-ink-faded)] mb-3">
-              Before sending legal notices or filing claims, assemble these records:
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-              {navigatorResult.evidence_needed.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2 p-2 bg-[var(--color-paper)] rounded border border-[var(--color-paper-dark)]">
-                  <span className="text-[var(--color-vermilion)]">📁</span>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Free Legal Aid Directory */}
-          <div className="bg-white border border-[var(--color-paper-dark)] rounded-lg p-6 shadow-sm">
-            <h3 className="text-xs font-mono uppercase tracking-widest text-[var(--color-sage)] mb-3">
-              Free & Subsidized Legal Aid Directory (India)
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-              {navigatorResult.free_legal_aid.map((aid, idx) => (
-                <div key={idx} className="p-4 rounded border border-[var(--color-paper-dark)] bg-[var(--color-paper)]">
-                  <h5 className="font-semibold text-sm text-[var(--color-ink)] mb-1 font-serif">
-                    {aid.name}
-                  </h5>
-                  <p className="text-[var(--color-ink-faded)] mb-2">{aid.description}</p>
-                  <div className="font-mono text-[var(--color-ink)] font-medium">
-                    📞 {aid.contact}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
+        );
+      })()}
     </div>
   );
 }

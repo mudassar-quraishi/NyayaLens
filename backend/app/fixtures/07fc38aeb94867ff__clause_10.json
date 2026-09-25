@@ -1,0 +1,19 @@
+{
+  "clause_type": "governing law / jurisdiction",
+  "plain_english": "The contract says that Indian law will apply, and if a dispute can’t be settled by arbitration, it must be taken to a court in Pune, Maharashtra.",
+  "what_it_means_for_you": "You will have to follow Indian law and may need to go to court in Pune if a disagreement isn’t resolved through arbitration.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause is standard and does not strip you of any rights.",
+    "The chosen court location may be inconvenient if you live elsewhere, but it does not create a penalty."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can arbitration be done remotely or does it require physical presence?",
+    "Is there any possibility to choose a different court if you cannot travel to Pune?",
+    "What are the costs and timelines for filing a suit in Pune courts?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.9,
+  "evidence_quote": "This Agreement shall be governed by the laws of India. The courts at Pune, Maharashtra shall have jurisdiction over any disputes not resolved through arbitration."
+}

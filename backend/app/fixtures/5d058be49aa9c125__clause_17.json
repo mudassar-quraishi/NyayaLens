@@ -1,0 +1,18 @@
+{
+  "clause_type": "notice",
+  "plain_english": "Any official notice must be mailed or delivered to the address listed in the agreement, or to a new address that either party later provides in writing.",
+  "what_it_means_for_you": "You must keep your contact address up‑to‑date and watch for any written notice sent to that address.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "The clause is a standard notice provision and does not give either party extra rights or penalties."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [
+    "What are the current addresses that will be used for notices?",
+    "How should a change of address be communicated to the other party?",
+    "Will email or electronic communication be accepted as a written notice?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.92,
+  "evidence_quote": "Notices shall be sent to the addresses stated above or to such other address as may be notified in writing."
+}
