@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     gemini_api_key: str = Field(default="", alias="GEMINI_API_KEY")
     anthropic_api_key: str = Field(default="", alias="ANTHROPIC_API_KEY")
     groq_api_key: str = Field(default="", alias="GROQ_API_KEY")
-    llm_model: str = Field(default="gemini-2.0-flash", alias="LLM_MODEL")
+    llm_model: str = Field(default="openai/gpt-oss-120b", alias="LLM_MODEL")
 
     # --- Demo mode ---
     demo_mode: bool = Field(default=False, alias="DEMO_MODE")
@@ -58,7 +58,7 @@ class Settings(BaseSettings):
     def llm_provider(self) -> str:
         """Detect which LLM provider to use based on available keys and model name."""
         model = self.llm_model.lower()
-        if self.groq_api_key or model.startswith("llama") or model.startswith("groq") or model.startswith("mixtral") or "groq" in model:
+        if self.groq_api_key or model.startswith("llama") or model.startswith("groq") or model.startswith("mixtral") or "groq" in model or "gpt-oss" in model or "openai" in model:
             return "groq"
         if model.startswith("claude") or model.startswith("anthropic"):
             return "anthropic"

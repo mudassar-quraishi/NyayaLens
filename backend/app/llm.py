@@ -159,12 +159,15 @@ async def _call_groq(system: str, user: str, model: str, json_mode: bool = False
     from groq import AsyncGroq
 
     settings = get_settings()
-    client = AsyncGroq(api_key=settings.groq_api_key)
+    api_key = (settings.groq_api_key or os.environ.get("GROQ_API_KEY", "")).strip()
+    if not api_key:
+        raise ValueError("GROQ_API_KEY is not set. Please provide a valid Groq API key in .env.")
+    client = AsyncGroq(api_key=api_key)
 
     groq_model = model
-    # Use high-quality default if a Gemini/Anthropic model string was passed
+    # Use high-performance default if a Gemini/Anthropic model string was passed or empty
     if not groq_model or "gemini" in groq_model.lower() or "claude" in groq_model.lower():
-        groq_model = "llama-3.3-70b-versatile"
+        groq_model = "openai/gpt-oss-120b"
 
     kwargs: dict[str, Any] = {
         "model": groq_model,
