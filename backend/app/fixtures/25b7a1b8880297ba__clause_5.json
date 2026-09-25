@@ -1,0 +1,17 @@
+{
+  "clause_type": "security_deposit",
+  "plain_english": "4. SECURITY DEPOSIT\nThe Tenant shall pay a security deposit of Rs. 1,50,000/- (Rupees One Lakh Fifty Thousand Only), equivalent to six months' rent, at the time of signing this Agreement. The security",
+  "what_it_means_for_you": "No deposit return timeline specified; deductions for damages are at landlord's sole discretion.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Deposit deductions are made at the landlord's sole discretion without third-party inspection.",
+    "No deposit return timeline is specified, creating risk of indefinite retention of funds."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Will the landlord agree to refund the deposit within 15\u201330 days of handover?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "The Landlord shall determine the condition of the Premises and the amount of deductions at his sole discretion."
+}

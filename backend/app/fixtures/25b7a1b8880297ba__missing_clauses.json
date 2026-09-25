@@ -1,0 +1,28 @@
+{
+  "missing_clauses": [
+    {
+      "name": "Deposit Return Timeline",
+      "why_it_matters": "No timeframe specified for the landlord to refund the balance security deposit after vacating.",
+      "severity": "high"
+    },
+    {
+      "name": "Notice Before Landlord Inspection",
+      "why_it_matters": "No requirement for advance notice (e.g. 24 hours) before landlord entry, compromising privacy.",
+      "severity": "high"
+    },
+    {
+      "name": "Landlord Repair Timelines",
+      "why_it_matters": "No specific deadline for landlord to complete major structural or plumbing repairs.",
+      "severity": "medium"
+    }
+  ],
+  "inconsistencies": [
+    {
+      "clause_a_id": 8,
+      "clause_b_id": 11,
+      "quote_a": "90 days' written notice to vacate",
+      "quote_b": "providing 30 days' written notice to the Tenant",
+      "description": "Contradictory notice periods: Tenant must give 90 days notice, whereas Landlord can terminate with only 30 days notice."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "clause_type": "non-compete_and_non-solicitation",
+  "plain_english": "6. NON-COMPETE AND NON-SOLICITATION\nDuring your employment and for a period of 24 (twenty-four) months after termination of employment, regardless of the reason for termination, you shall not:",
+  "what_it_means_for_you": "Post-employment non-compete for 24 months with Rs 25 lakhs liquidated damages (unenforceable under Indian Contract Act S.27).",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Post-employment non-compete for 24 months (void and unenforceable under Indian Contract Act Section 27).",
+    "Liquidated damages penalty of Rs 25,00,000 for non-compete violation."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can the post-employment non-compete be struck out as unenforceable under S.27?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "paying liquidated damages of Rs. 25,00,000/- (Rupees Twenty-Five Lakhs Only) to the Company"
+}

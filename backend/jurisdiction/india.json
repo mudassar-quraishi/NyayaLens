@@ -1,0 +1,74 @@
+[
+  {
+    "topic": "restraint_of_trade",
+    "general_rule": "Agreements in restraint of trade are void under the Indian Contract Act, 1872, Section 27. Post-employment non-compete clauses are generally unenforceable in India.",
+    "source_name": "Indian Contract Act, 1872, Section 27",
+    "applies_to_doc_types": ["employment", "freelance", "nda"],
+    "verify_note": "Verify before publishing. Exceptions exist for sale of goodwill.",
+    "last_verified": null
+  },
+  {
+    "topic": "penalty_vs_compensation",
+    "general_rule": "When a contract specifies a sum payable on breach, the court may award only reasonable compensation, not exceeding the stated amount. A penalty clause may not be enforced in full if it is disproportionate to actual loss.",
+    "source_name": "Indian Contract Act, 1872, Section 74",
+    "applies_to_doc_types": ["employment", "freelance", "rental", "loan"],
+    "verify_note": "Verify before publishing. Courts assess proportionality case by case.",
+    "last_verified": null
+  },
+  {
+    "topic": "lease_registration",
+    "general_rule": "Leases for a period exceeding one year must be registered. Many residential rental agreements in India are made for 11 months to avoid registration requirements.",
+    "source_name": "Registration Act, 1908",
+    "applies_to_doc_types": ["rental"],
+    "verify_note": "Verify before publishing. State-specific practices vary significantly.",
+    "last_verified": null
+  },
+  {
+    "topic": "stamp_duty",
+    "general_rule": "Stamp duty on agreements varies by state. The amount depends on the type of agreement, the value involved, and the state where it is executed.",
+    "source_name": "Indian Stamp Act, 1899 (as amended by states)",
+    "applies_to_doc_types": ["rental", "employment", "freelance", "loan"],
+    "verify_note": "Verify before publishing. Do not state specific amounts — they vary by state and are updated periodically.",
+    "last_verified": null
+  },
+  {
+    "topic": "rent_control",
+    "general_rule": "Several states have rent control legislation that may cap rent increases, provide security of tenure, and regulate eviction. The Model Tenancy Act, 2021 is a central model law; its applicability depends on whether the state has adopted it.",
+    "source_name": "State Rent Control Acts; Model Tenancy Act, 2021",
+    "applies_to_doc_types": ["rental"],
+    "verify_note": "Verify before publishing. Applicability depends entirely on the state.",
+    "last_verified": null
+  },
+  {
+    "topic": "consumer_disputes",
+    "general_rule": "Consumers can file complaints with Consumer Commissions (District, State, or National) for deficiency in services, unfair trade practices, or defective goods. Filing fees are nominal.",
+    "source_name": "Consumer Protection Act, 2019",
+    "applies_to_doc_types": ["tos", "loan", "freelance"],
+    "verify_note": "Verify before publishing. Pecuniary jurisdiction limits are updated periodically.",
+    "last_verified": null
+  },
+  {
+    "topic": "free_legal_aid",
+    "general_rule": "Free legal aid is available through the National Legal Services Authority (NALSA), State Legal Services Authorities, and District Legal Services Authorities. The Tele-Law programme provides free legal consultations via phone/video.",
+    "source_name": "Legal Services Authorities Act, 1987; Tele-Law (Ministry of Law and Justice)",
+    "applies_to_doc_types": ["rental", "employment", "freelance", "loan", "tos", "nda", "other"],
+    "verify_note": "Verify current contact details before showing them. Websites and phone numbers may change.",
+    "last_verified": null
+  },
+  {
+    "topic": "gratuity",
+    "general_rule": "Employees who have completed 5 years of continuous service are entitled to gratuity at the rate of 15 days' wages for each completed year of service.",
+    "source_name": "Payment of Gratuity Act, 1972",
+    "applies_to_doc_types": ["employment"],
+    "verify_note": "Verify before publishing. The Act applies to establishments with 10 or more employees. Recent amendments may change the ceiling.",
+    "last_verified": null
+  },
+  {
+    "topic": "security_deposit_rental",
+    "general_rule": "The Model Tenancy Act, 2021 proposes a cap on security deposit at 2 months' rent for residential premises. However, this is a model law and applicability depends on state adoption. In practice, deposits of 2-10 months are common across states.",
+    "source_name": "Model Tenancy Act, 2021 (Section 8)",
+    "applies_to_doc_types": ["rental"],
+    "verify_note": "Verify before publishing. Most states have not yet adopted this model law.",
+    "last_verified": null
+  }
+]

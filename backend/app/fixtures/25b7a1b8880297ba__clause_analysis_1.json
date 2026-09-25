@@ -1,0 +1,14 @@
+{
+  "clause_type": "residential_rental_agreement",
+  "plain_english": "RESIDENTIAL RENTAL AGREEMENT\n\nThis Rental Agreement (\"Agreement\") is made and entered into on this 1st day of January, 2025 (\"Effective Date\"), by and between:\n\nLANDLORD: Mr. Rajesh Kumar Sharma, resi",
+  "what_it_means_for_you": "Standard provision regarding residential rental agreement.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Standard operational term."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "RESIDENTIAL RENTAL AGREEMENT\n\nThis Rental Agreement (\"Agreement\") is made and entered into on this 1st day of January, 2025 (\"Effective Date\"), by and between:\n\nLANDLORD: Mr"
+}

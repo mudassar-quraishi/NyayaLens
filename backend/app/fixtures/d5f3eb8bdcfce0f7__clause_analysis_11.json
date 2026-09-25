@@ -1,0 +1,16 @@
+{
+  "clause_type": "intellectual_property",
+  "plain_english": "7. INTELLECTUAL PROPERTY\nAll work product, inventions, discoveries, designs, software, documentation, and intellectual property of any kind created by you during the course of employment, whether duri",
+  "what_it_means_for_you": "IP assignment claims ownership of your personal projects created in personal time on personal devices.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "IP assignment covering personal projects on personal time and personal devices."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can personal side projects on personal devices be excluded from company IP?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "work created in your personal time, on personal devices, that relates to or could relate to the Company's current or future business interests."
+}

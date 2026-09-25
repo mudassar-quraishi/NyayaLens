@@ -1,0 +1,14 @@
+{
+  "clause_type": "offer_of_employment",
+  "plain_english": "OFFER OF EMPLOYMENT\n\nDate: 15th March 2025\n\nTo: Mr. Arjun Desai\nAddress: 78, Koramangala, Bangalore \u2013 560034\nEmail: arjun.desai@personal.com\nPhone: +91 87654 32109\nPAN: KLMNO9876P\nAadhaar: 5555-6666-7",
+  "what_it_means_for_you": "Details regarding offer of employment.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Standard employment term."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "OFFER OF EMPLOYMENT\n\nDate: 15th March 2025\n\nTo: Mr"
+}

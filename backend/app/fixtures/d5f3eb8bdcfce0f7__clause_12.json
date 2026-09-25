@@ -1,0 +1,14 @@
+{
+  "clause_type": "confidentiality",
+  "plain_english": "8. CONFIDENTIALITY\nYou shall maintain strict confidentiality of all proprietary information, trade secrets, business plans, client information, financial data, and any other confidential information o",
+  "what_it_means_for_you": "Details regarding confidentiality.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Standard employment term."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "CONFIDENTIALITY\nYou shall maintain strict confidentiality of all proprietary information, trade secrets, business plans, client information, financial data, and any other confidential information of the Company during and after your employment"
+}

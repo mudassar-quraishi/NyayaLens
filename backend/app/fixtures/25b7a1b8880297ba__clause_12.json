@@ -1,0 +1,16 @@
+{
+  "clause_type": "dispute_resolution",
+  "plain_english": "11. DISPUTE RESOLUTION\nAny dispute arising out of or in connection with this Agreement shall be resolved through mutual discussion between the parties. If the dispute cannot be resolved amicably withi",
+  "what_it_means_for_you": "Tenant bears all landlord's legal costs and attorney fees.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "Tenant agrees to bear all legal costs and attorney fees incurred by the landlord."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can attorney fee clause be made mutual or removed?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "The Tenant agrees to bear all legal costs and attorney fees incurred by the Landlord in enforcing this Agreement."
+}

@@ -1,0 +1,14 @@
+{
+  "clause_type": "notice_period_during_probation",
+  "plain_english": "12. NOTICE PERIOD DURING PROBATION\nDuring the probation period, the notice period shall be 30 days from either side.",
+  "what_it_means_for_you": "Contradictory notice period: says 30 days probation notice here, but clause 2 stated 15 days.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Contradictory probation notice periods: clause 2 says 15 days, clause 12 says 30 days."
+  ],
+  "favors": "unclear",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "During the probation period, the notice period shall be 30 days from either side."
+}

@@ -1,0 +1,16 @@
+{
+  "clause_type": "termination_by_landlord",
+  "plain_english": "10. TERMINATION BY LANDLORD\nThe Landlord may terminate this Agreement at any time by providing 30 days' written notice to the Tenant. Upon such termination, the Tenant shall vacate the Premises within",
+  "what_it_means_for_you": "Contradictory and unbalanced termination notice: Landlord 30 days vs Tenant 90 days.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Landlord may terminate by providing 30 days written notice, while tenant must provide 90 days notice in clause 7."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can termination notice periods be made reciprocal (e.g. 30 days for both)?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "The Landlord may terminate this Agreement at any time by providing 30 days' written notice to the Tenant."
+}

@@ -1,0 +1,17 @@
+{
+  "clause_type": "lock-in_period_and_early_termination",
+  "plain_english": "7. LOCK-IN PERIOD AND EARLY TERMINATION\nThere shall be a lock-in period of 6 (six) months from the commencement date of this Agreement, during which neither party may terminate this Agreement. If the ",
+  "what_it_means_for_you": "Early exit forces you to forfeit entire deposit plus 3 months rent as penalty.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Severe penalty: Tenant shall forfeit entire deposit as liquidated damages and additionally pay 3 months' rent.",
+    "Imposes 90 days written notice to vacate after lock-in period."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can early termination penalty be capped at 1 month's rent?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "the Tenant shall forfeit the entire security deposit as liquidated damages and shall additionally pay a penalty equal to 3 (three) months' rent."
+}

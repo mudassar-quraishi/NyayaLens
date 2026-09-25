@@ -1,0 +1,16 @@
+{
+  "clause_type": "landlord's_right_of_access",
+  "plain_english": "8. LANDLORD'S RIGHT OF ACCESS\nThe Landlord or his authorized representative shall have the right to enter and inspect the Premises at any time, with or without prior notice to the Tenant, for the purp",
+  "what_it_means_for_you": "Landlord can enter the premises at any time without prior notice.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Landlord or representative may enter at any time without prior notice, infringing tenant privacy."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can we require at least 24 hours prior written notice before entry?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "with or without prior notice to the Tenant, for the purpose of inspection, repairs, or showing the Premises"
+}

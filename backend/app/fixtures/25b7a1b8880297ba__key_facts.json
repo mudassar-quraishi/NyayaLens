@@ -1,0 +1,18 @@
+{
+  "parties": [
+    "Mr. Rajesh Kumar Sharma (Landlord)",
+    "Ms. Priya Mehta (Tenant)"
+  ],
+  "effective_date": "2025-01-01",
+  "term": "11 months (ending 30th November 2025)",
+  "amounts": [
+    "Rs. 25,000/- monthly rent",
+    "Rs. 1,50,000/- security deposit"
+  ],
+  "governing_law": "Transfer of Property Act, 1882 & Haryana rent control legislation",
+  "jurisdiction": "New Delhi",
+  "notice_periods": [
+    "30 days (Landlord)",
+    "90 days (Tenant after lock-in)"
+  ]
+}

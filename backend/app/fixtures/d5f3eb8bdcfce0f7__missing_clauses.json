@@ -1,0 +1,23 @@
+{
+  "missing_clauses": [
+    {
+      "name": "Overtime Policy for Extra Hours",
+      "why_it_matters": "Requires 6 days/week work with no compensation for additional overtime hours.",
+      "severity": "medium"
+    },
+    {
+      "name": "Work from Home / Remote Policy",
+      "why_it_matters": "Agreement does not specify remote or hybrid working conditions.",
+      "severity": "low"
+    }
+  ],
+  "inconsistencies": [
+    {
+      "clause_a_id": 3,
+      "clause_b_id": 16,
+      "quote_a": "15 days' written notice",
+      "quote_b": "notice period shall be 30 days from either side",
+      "description": "Contradictory probation notice periods: Clause 2 states 15 days notice, while Clause 12 states 30 days notice."
+    }
+  ]
+}

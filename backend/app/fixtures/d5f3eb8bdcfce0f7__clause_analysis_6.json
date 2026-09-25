@@ -1,0 +1,17 @@
+{
+  "clause_type": "notice_period_and_termination",
+  "plain_english": "5. NOTICE PERIOD AND TERMINATION\nAfter confirmation, either party may terminate the employment by providing 90 (ninety) days' written notice or payment of gross salary in lieu of the notice period. If",
+  "what_it_means_for_you": "90-day notice period with clawback of training costs and bonuses for 24 months.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "90 days notice period with mandatory service during projects.",
+    "Clawback: Employee must repay training costs, relocation assistance, and joining bonus from preceding 24 months."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can clawback be limited to 6\u201312 months and pro-rated?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "repay any training costs, relocation assistance, joining bonus, or other investments made by the Company in the employee during the preceding 24 months on a pro-rata basis."
+}

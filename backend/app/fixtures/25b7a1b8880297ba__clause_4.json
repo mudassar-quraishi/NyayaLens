@@ -1,0 +1,17 @@
+{
+  "clause_type": "rent_and_payment",
+  "plain_english": "3. RENT AND PAYMENT\nThe monthly rent for the Premises shall be Rs. 25,000/- (Rupees Twenty-Five Thousand Only), payable on or before the 5th day of each calendar month. The rent shall be paid via bank",
+  "what_it_means_for_you": "The landlord can unilaterally hike rent by up to 20% on renewal at sole discretion.",
+  "risk_level": "high",
+  "risk_reasons": [
+    "Unilateral rent increase up to 20% upon renewal at landlord's sole discretion without tenant's consent.",
+    "A late payment fee of Rs. 500/- per day is charged for delays."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can we cap renewal rent increase to 5-10% based on market rate?"
+  ],
+  "needs_lawyer_review": true,
+  "confidence": 0.95,
+  "evidence_quote": "increase the rent by up to 20% upon renewal of this Agreement, at the Landlord's sole discretion, without requiring the Tenant's consent."
+}

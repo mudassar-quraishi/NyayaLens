@@ -1,0 +1,14 @@
+{
+  "clause_type": "position_and_duties",
+  "plain_english": "1. POSITION AND DUTIES\nYou shall be employed as a Software Engineer reporting to the Engineering Manager. Your duties shall include software development, code review, system design, and any other task",
+  "what_it_means_for_you": "Details regarding position and duties.",
+  "risk_level": "low",
+  "risk_reasons": [
+    "Standard employment term."
+  ],
+  "favors": "balanced",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "POSITION AND DUTIES\nYou shall be employed as a Software Engineer reporting to the Engineering Manager"
+}

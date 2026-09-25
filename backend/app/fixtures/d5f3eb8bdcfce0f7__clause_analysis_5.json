@@ -1,0 +1,16 @@
+{
+  "clause_type": "working_hours_and_leave",
+  "plain_english": "4. WORKING HOURS AND LEAVE\nYou shall work a minimum of 9 hours per day, Monday through Saturday. Additional hours may be required based on project demands, for which no overtime compensation shall be ",
+  "what_it_means_for_you": "Requires Monday through Saturday work with no compensation for extra hours.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "No overtime compensation for Saturday work and extra hours beyond 9 hours per day."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [
+    "Can working hours be limited to Monday through Friday?"
+  ],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "no overtime compensation shall be payable."
+}

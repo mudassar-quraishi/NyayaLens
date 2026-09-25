@@ -1,0 +1,14 @@
+{
+  "clause_type": "commencement_date_and_probation",
+  "plain_english": "2. COMMENCEMENT DATE AND PROBATION\nYour employment shall commence on 1st April 2025. You shall be on probation for a period of 6 (six) months. During the probation period, either party may terminate t",
+  "what_it_means_for_you": "15 days notice during probation period.",
+  "risk_level": "medium",
+  "risk_reasons": [
+    "15 days probation notice specified here contradicts clause 12."
+  ],
+  "favors": "party_a",
+  "questions_to_ask": [],
+  "needs_lawyer_review": false,
+  "confidence": 0.95,
+  "evidence_quote": "terminate the employment with 15 days' written notice."
+}
