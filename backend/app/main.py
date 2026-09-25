@@ -81,18 +81,47 @@ app.include_router(obligations_router)
 app.include_router(navigator_router)
 
 
-@app.get("/")
-async def root():
-    settings = get_settings()
-    return {
-        "name": "NyayaLens",
-        "tagline": "Read the fine print before it reads you.",
-        "version": "0.1.0",
-        "demo_mode": settings.demo_mode,
-        "disclaimer": "Information, not legal advice.",
-    }
-
-
 @app.get("/health")
+@app.get("/api/health")
 async def health():
     return {"status": "ok"}
+
+
+# Optional static mounting for all-in-one single-container / single-service deployments
+import os
+from fastapi import HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+frontend_dist = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist"))
+if os.path.exists(frontend_dist):
+    assets_dir = os.path.join(frontend_dist, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="static_assets")
+
+    samples_dir = os.path.join(frontend_dist, "samples")
+    if os.path.exists(samples_dir):
+        app.mount("/samples", StaticFiles(directory=samples_dir), name="static_samples")
+
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        if full_path.startswith("api"):
+            raise HTTPException(404, "Not Found")
+        file_path = os.path.join(frontend_dist, full_path)
+        if os.path.isfile(file_path):
+            return FileResponse(file_path)
+        index_file = os.path.join(frontend_dist, "index.html")
+        if os.path.exists(index_file):
+            return FileResponse(index_file)
+        raise HTTPException(404, "Not Found")
+else:
+    @app.get("/")
+    async def root():
+        settings = get_settings()
+        return {
+            "name": "NyayaLens",
+            "tagline": "Read the fine print before it reads you.",
+            "version": "0.1.0",
+            "demo_mode": settings.demo_mode,
+            "disclaimer": "Information, not legal advice.",
+        }

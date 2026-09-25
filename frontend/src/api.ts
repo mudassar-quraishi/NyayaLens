@@ -1,6 +1,5 @@
-/* API client for NyayaLens backend */
-
-const BASE = '/api';
+const API_ROOT = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const BASE = API_ROOT ? `${API_ROOT}/api` : '/api';
 
 export interface Session {
   id: string;
