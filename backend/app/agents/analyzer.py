@@ -116,14 +116,14 @@ async def analyze_clause(
         jurisdiction_hints=jurisdiction_hints,
     )
 
-    # Use clause_hash or content_hash as cache key
-    cache_hash = clause_hash or content_hash or ""
+    # Check document-level fixture first (bundled samples), then clause-level cache
+    cache_hash = content_hash or clause_hash or ""
     try:
         result = await generate_json(
             schema=ClauseAnalysisLLM,
             system=system,
             user=user,
-            prompt_name=f"clause_analysis_{clause_ordinal}",
+            prompt_name=f"clause_{clause_ordinal}",
             content_hash=cache_hash,
         )
     except Exception:
@@ -131,7 +131,7 @@ async def analyze_clause(
             schema=ClauseAnalysisLLM,
             system=system,
             user=user,
-            prompt_name=f"clause_{clause_ordinal}",
+            prompt_name=f"clause_analysis_{clause_ordinal}",
             content_hash=cache_hash,
         )
 

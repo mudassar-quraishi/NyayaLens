@@ -49,20 +49,21 @@ export function CompareView() {
   }
 
   const {
-    summary,
-    net_risk_delta,
-    bottom_line_bullets,
-    clause_diffs,
-    overall_score_a,
-    overall_score_b,
-  } = compareResult;
+    summary = '',
+    net_risk_delta = 'neutral',
+    bottom_line_bullets = [],
+    clause_diffs = [],
+    overall_score_a = 0,
+    overall_score_b = 0,
+  } = compareResult || {};
 
-  const worseCount = clause_diffs.filter((d) => d.risk_delta === 'worse').length;
-  const modCount = clause_diffs.filter((d) => d.change_type === 'modified').length;
-  const addCount = clause_diffs.filter((d) => d.change_type === 'added').length;
-  const remCount = clause_diffs.filter((d) => d.change_type === 'removed').length;
+  const diffs = Array.isArray(clause_diffs) ? clause_diffs : [];
+  const worseCount = diffs.filter((d) => d.risk_delta === 'worse').length;
+  const modCount = diffs.filter((d) => d.change_type === 'modified').length;
+  const addCount = diffs.filter((d) => d.change_type === 'added').length;
+  const remCount = diffs.filter((d) => d.change_type === 'removed').length;
 
-  const filteredDiffs = clause_diffs.filter((d) => {
+  const filteredDiffs = diffs.filter((d) => {
     if (filter === 'worse') return d.risk_delta === 'worse';
     if (filter === 'added') return d.change_type === 'added';
     if (filter === 'modified') return d.change_type === 'modified';
